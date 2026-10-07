@@ -36,6 +36,11 @@ a C++14 compiler) apply here as well. Our build steps mirror theirs.
 [OptiX](https://developer.nvidia.com/rtx/ray-tracing/optix) is optional — if found it
 enables hardware ray tracing, but the project compiles fine without it.
 
+> **Prebuilt releases.** The [Releases](../../releases) page provides Linux and Windows
+> archives with a headless `testbed` already built (CUDA runtime bundled, no GUI, no
+> OptiX). Extract one and skip to step 3, running `pip install .` from the extracted
+> `RNb-NeuS2` folder.
+
 **1. Clone the repository**
 
 All C++/CUDA dependencies are vendored under `dependencies/`, so a plain clone is
